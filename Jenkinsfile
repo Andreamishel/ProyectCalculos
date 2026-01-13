@@ -10,7 +10,7 @@ pipeline {
 
         stage('Restore') {
             steps {
-                bat 'dotnet restore projectCalculadora.sln'
+                bat 'dotnet restore projectCalculos.sln'
             }
         }
 
