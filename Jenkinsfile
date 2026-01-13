@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'dotnet build projectCalculadora.sln --configuration Release --no-restore'
+                bat 'dotnet build projectCalculos.sln --configuration Release --no-restore'
             }
         }
 
